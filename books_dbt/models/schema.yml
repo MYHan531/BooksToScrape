@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: books_cleaned
+    description: "Cleaned version of books_raw with numeric rating"
+    columns:
+      - name: title
+        description: "Title of the book"
+      - name: price
+        description: "Price in pounds"
+      - name: rating_num
+        description: "Rating converted to numeric"
